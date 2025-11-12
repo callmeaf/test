@@ -1,0 +1,9 @@
+POST http://localhost:8989/api/transactions/transfer
+Accept: application/json
+Content-Type: application/json
+
+{
+    "source_card": "7562314188013109",
+    "destination_card": "8747753071417099",
+    "amount": 1500000
+}
